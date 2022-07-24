@@ -1,0 +1,146 @@
+body{
+    font-family:"montserrat";
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat-black';
+}
+ 
+  
+  h2{
+      font-family: 'Montserrat-White Italic';
+      font-size: 3rem;
+      line-height: 1.5;
+      color: white;
+  }
+  h3{
+    font-family: 'Montserrat-black';
+    /* margin-top: 10px; */
+    font-size: 3rem;
+}
+p{
+    color:gray;
+    text-align: center;
+}
+.big-heading{
+    font-family: "Montserrat-White Italic";
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight:900;
+}
+#title {
+  background-color: #ff4c68;
+  color:white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* navigation bar */
+.navbar{
+    padding-bottom:4.5rem;
+}
+.nav-item{
+    padding:0 15px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+}
+.navbar-brand{
+    font-family:"ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* Download Buttons */
+.download-button{
+margin:5% 3% 5% 0;
+
+}
+/* .download-button:hover {
+    background-color: rgb(241, 239, 235);
+  } */
+/* Title image */
+.title-img{
+    width:60%;
+    transform: rotate(27deg);
+    margin-left: 13%;
+}
+
+#features{
+    padding:7% 15%;
+    margin-top: -17%;
+    background-color: aliceblue;
+    position:relative;
+    
+}
+.feature-box{
+    text-align: center;
+}
+.icon{
+    color: #ff4c68;
+    
+}
+.icon:hover{
+    color:#ef8172;
+}
+/* TESTIMONIAL SECTION */
+#testimonials{
+    
+    text-align: center;
+    background-color:#ff4c68
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color:#ff4c68;
+    text-align: center; /* yaha img ke liye text-align use ke re*/
+    padding-bottom: 5%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    /* background-color: #ff4c68; */
+    text-align: center;
+ 
+}
+.box{
+    
+    text-decoration-color: black;
+}
+.bttn{
+    padding:3% 30%;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+/* used to set condition and apply effects under that condition */
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10%;
+    font-size: 3rem;
+}
+.social-media{
+    text-align: center;
+margin-top: 30px;}
+.handle{
+    padding: 2%;
+}
